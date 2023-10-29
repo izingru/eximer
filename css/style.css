@@ -59,8 +59,8 @@ body {
 }
 
 .ag-primary-block {
-  width: 100%;
-  overflow-x: hidden;
+  width: 100vw;
+  overflow-x: hidden !important;
 }
 
 *::-webkit-input-placeholder {
