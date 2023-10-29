@@ -8159,8 +8159,12 @@ a.ag-article-img-item_link:hover {
   .ag-popup-form_btn__close {
     top: 35px;
   }
+
   .ag-popup-form_box {
     padding: 70px 0;
+  }
+  .ag-popup-form_title {
+    padding: 0 60px 25px;
   }
   /* /popup */
 
