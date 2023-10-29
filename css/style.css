@@ -3087,6 +3087,12 @@ a.ag-article-img-item_link:hover {
 /* /common */
 
 /* home page */
+.ag-eximer-page {
+  overflow-x: hidden;
+
+  position: relative;
+}
+
 .ag-primary_box {
   display: table-cell;
   height: 314px;
@@ -3096,10 +3102,6 @@ a.ag-article-img-item_link:hover {
 .ag-primary-block {
   background: url(../images/primary-bg-1.jpg) no-repeat 100% 0 #3150CD;
   background-size: cover;
-
-  overflow-x: hidden;
-
-  position: relative;
 }
 .ag-primary-block-v2 {
   background: url(../images/primary-bg-2.jpg) no-repeat 100% 0 #3150CD;
