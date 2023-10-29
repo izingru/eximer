@@ -6128,11 +6128,18 @@ a.ag-article-img-item_link:hover {
   font-size: 25px;
   color: #C4C9CC;
 }
-.ag-faq-tab_link__active,
-.ag-faq-tab_link:hover {
+.ag-faq-tab_link__active {
   text-decoration: underline;
   font-weight: 700;
   color: #041C2C;
+}
+
+@media (hover: hover) {
+  .ag-faq-tab_link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #041C2C;
+  }
 }
 
 .ag-faq_box {
