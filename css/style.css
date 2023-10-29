@@ -2618,6 +2618,8 @@ a.ag-article-img-item_link:hover {
   -ms-touch-action: none;
 }
 .js-ag-menu_nav__open {
+  height: 100vh;
+  
   right: 0;
 
   -webkit-transition: all 0.3s ease;
