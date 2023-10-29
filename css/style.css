@@ -63,7 +63,7 @@ body {
   overflow-x: hidden;
 }
 .ag-menu_nav {
-  display: none;
+  display: none !important;
 }
 
 *::-webkit-input-placeholder {
