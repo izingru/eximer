@@ -40,10 +40,6 @@
   font-stretch: normal;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 img {
   max-width: 100%;
 }
@@ -2891,7 +2887,7 @@ a.ag-article-img-item_link:hover {
 .js-ag-descr_scroll__open .js-ag-descr_scroll {
   height: auto;
 }
-/*.js-ag-descr_scroll::-webkit-scrollbar-track {
+.js-ag-descr_scroll::-webkit-scrollbar-track {
   border: 6px solid #F5F5F5;
   background-color: #DADADA;
 }
@@ -2906,7 +2902,7 @@ a.ag-article-img-item_link:hover {
   border-top: 0;
   border-bottom: 0;
   background-color: #1646D0;
-}*/
+}
 .ag-descr_text {
   padding-right: 60px;
 
@@ -3738,6 +3734,8 @@ a.ag-article-img-item_link:hover {
 .ag-client-block {
   padding: 150px 0;
   background-color: #F4F4F4;
+
+  overflow-x: hidden;
 }
 .ag-client_box {
   display: -ms-flexbox;
@@ -5538,6 +5536,8 @@ a.ag-article-img-item_link:hover {
 .ag-disease-advantage-block {
   padding: 50px 0 145px;
   background-color: #195FD4;
+
+  overflow-x: hidden;
 }
 
 .ag-disease-advantage-carousel_box {
@@ -6365,6 +6365,8 @@ a.ag-article-img-item_link:hover {
 
 .ag-doctor-certificate-block {
   padding: 110px 0 100px;
+
+  overflow-x: hidden;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
