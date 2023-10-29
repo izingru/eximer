@@ -41,7 +41,7 @@
 }
 
 html {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 img {
@@ -56,11 +56,6 @@ body {
   font-family: HelveticaNeue, sans-serif;
   font-size: 16px;
   color: #041C2C;
-}
-
-.ag-primary-block {
-  width: 100vw;
-  overflow-x: hidden !important;
 }
 
 *::-webkit-input-placeholder {
@@ -2607,10 +2602,12 @@ a.ag-article-img-item_link:hover {
   overflow-y: auto;
   overflow-x: hidden;
 
-  z-index: 9998;
+  opacity: 0;
+
+  z-index: -1;
   position: absolute;
   top: 0;
-  right: -100%;
+  right: 0;
   bottom: 0;
 
   -webkit-box-sizing: border-box;
@@ -2625,7 +2622,9 @@ a.ag-article-img-item_link:hover {
   -ms-touch-action: none;
 }
 .js-ag-menu_nav__open {
-  right: 0;
+  opacity: 1;
+
+  z-index: 9998;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
