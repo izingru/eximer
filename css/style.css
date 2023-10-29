@@ -2619,7 +2619,7 @@ a.ag-article-img-item_link:hover {
 }
 .js-ag-menu_nav__open {
   height: 100vh;
-  
+
   right: 0;
 
   -webkit-transition: all 0.3s ease;
@@ -8335,7 +8335,7 @@ a.ag-article-img-item_link:hover {
 
   .ag-menu_nav {
     width: 95%;
-    padding: 35px 20px;
+    padding: 35px 20px 100px;
     background: #195FD4;
   }
   .ag-menu_nav_header {
