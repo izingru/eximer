@@ -6132,8 +6132,11 @@ a.ag-article-img-item_link:hover {
   font-size: 25px;
   color: #C4C9CC;
 }
-.ag-faq-tab_link__active,
 .ag-faq-tab_link:hover {
+  text-decoration: none;
+}
+
+.ag-faq-tab_link__active {
   text-decoration: underline;
   font-weight: 700;
   color: #041C2C;
@@ -10757,5 +10760,14 @@ a.ag-article-img-item_link:hover {
 @media only screen and (max-height: 650px) {
   .ag-format-container__popup {
     height: auto;
+  }
+}
+
+
+@media (min-width: 1500px) {
+  .ag-faq-tab_link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #041C2C;
   }
 }
