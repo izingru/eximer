@@ -62,7 +62,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-.js-ag-menu_nav__open {
+.ag-menu_nav {
   display: none;
 }
 
