@@ -62,9 +62,6 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-.ag-menu_nav {
-  display: none !important;
-}
 
 *::-webkit-input-placeholder {
   color: #7C8890;
