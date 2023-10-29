@@ -8552,6 +8552,9 @@ a.ag-article-img-item_link:hover {
   /* /footer */
 
   /* home page */
+  .ag-primary-block__home {
+    background: url(../images/primary-bg-mobile.png) no-repeat 100% 0 #3150CD;
+  }
   .ag-primary_title {
     line-height: 1.25;
   }
