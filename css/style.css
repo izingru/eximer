@@ -2,6 +2,10 @@
   --format-container: 1040px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: HelveticaNeue;
   src: url(../fonts/HelveticaNeue/HelveticaNeue/HelveticaNeue.eot);
