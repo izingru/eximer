@@ -3357,6 +3357,8 @@ a.ag-article-img-item_link:hover {
 .ag-expert-block {
   padding: 145px 0 125px;
   background: url(../images/expert-bg.png) no-repeat 0 100% #195FD4;
+
+  overflow-x: hidden;
 }
 /* professional */
 .ag-prof_info {
@@ -7356,6 +7358,8 @@ a.ag-article-img-item_link:hover {
   padding: 50px 0 250px;
   background: url(../images/clinic-carousel-bg.png) no-repeat 50% 100% #1354C1;
   background-size: 100% auto;
+
+  overflow-x: hidden;
 }
 
 .ag-clinic-city-disease-carousel_box {
