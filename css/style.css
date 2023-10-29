@@ -2600,12 +2600,10 @@ a.ag-article-img-item_link:hover {
   overflow-y: auto;
   overflow-x: hidden;
 
-  opacity: 0;
-
-  z-index: -1;
+  z-index: 9998;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -100%;
   bottom: 0;
 
   -webkit-box-sizing: border-box;
@@ -2620,9 +2618,7 @@ a.ag-article-img-item_link:hover {
   -ms-touch-action: none;
 }
 .js-ag-menu_nav__open {
-  opacity: 1;
-
-  z-index: 9998;
+  right: 0;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -3100,6 +3096,10 @@ a.ag-article-img-item_link:hover {
 .ag-primary-block {
   background: url(../images/primary-bg-1.jpg) no-repeat 100% 0 #3150CD;
   background-size: cover;
+
+  overflow-x: hidden;
+
+  position: relative;
 }
 .ag-primary-block-v2 {
   background: url(../images/primary-bg-2.jpg) no-repeat 100% 0 #3150CD;
@@ -6128,18 +6128,11 @@ a.ag-article-img-item_link:hover {
   font-size: 25px;
   color: #C4C9CC;
 }
-.ag-faq-tab_link__active {
+.ag-faq-tab_link__active,
+.ag-faq-tab_link:hover {
   text-decoration: underline;
   font-weight: 700;
   color: #041C2C;
-}
-
-@media (hover: hover) {
-  .ag-faq-tab_link:hover {
-    text-decoration: underline;
-    font-weight: 700;
-    color: #041C2C;
-  }
 }
 
 .ag-faq_box {
