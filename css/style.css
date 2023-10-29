@@ -8145,6 +8145,23 @@ a.ag-article-img-item_link:hover {
   .ag-popup-form_btn__close:after {
     width: 22px;
   }
+
+  .ag-format-container__popup {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+
+  .ag-popup-form_btn__close {
+    top: 35px;
+  }
+  .ag-popup-form_box {
+    padding: 70px 0;
+  }
   /* /popup */
 
   /* layout column */
