@@ -2891,7 +2891,7 @@ a.ag-article-img-item_link:hover {
 .js-ag-descr_scroll__open .js-ag-descr_scroll {
   height: auto;
 }
-.js-ag-descr_scroll::-webkit-scrollbar-track {
+/*.js-ag-descr_scroll::-webkit-scrollbar-track {
   border: 6px solid #F5F5F5;
   background-color: #DADADA;
 }
@@ -2906,7 +2906,7 @@ a.ag-article-img-item_link:hover {
   border-top: 0;
   border-bottom: 0;
   background-color: #1646D0;
-}
+}*/
 .ag-descr_text {
   padding-right: 60px;
 
