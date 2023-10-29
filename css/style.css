@@ -1,8 +1,5 @@
 :root {
   --format-container: 1040px;
-  --format-container-table: 960px;
-  --format-container-tab-mob: 750px;
-  --format-container-mobile: 90%;
 }
 
 @font-face {
@@ -84,11 +81,11 @@ body {
 
 /* common */
 .ag-format-container {
-  width: var(--format-container);
+  width: 1040px;
   margin: 0 auto;
 }
 .ag-format-container__half {
-  width: calc(var(--format-container)/2);
+  width: calc(1040px/2);
 
   position: relative;
 }
@@ -8099,7 +8096,7 @@ a.ag-article-img-item_link:hover {
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
-    width: var(--format-container-mobile);
+    width: 90%;
   }
   .ag-format-container__half {
     width: auto;
@@ -8651,7 +8648,7 @@ a.ag-article-img-item_link:hover {
     padding: 0 0 40px;
   }
   .ag-client-carousel_box {
-    width: var(--format-container-mobile);
+    width: 90%;
     margin: 0 auto;
   }
   .ag-client-carousel_list {
@@ -10166,10 +10163,10 @@ a.ag-article-img-item_link:hover {
 
 @media (min-width: 768px) and (max-width: 979px) {
   .ag-format-container {
-    width: var(--format-container-tab-mob);
+    width: 750px;
   }
   .ag-format-container__half {
-    width: calc(var(--format-container-tab-mob)/2);
+    width: calc(750px/2);
   }
 
   .ag-base_title {
@@ -10375,7 +10372,7 @@ a.ag-article-img-item_link:hover {
     padding: 0 0 40px;
   }
   .ag-client-carousel_box {
-    width: var(--format-container-tab-mob);
+    width: 750px;
     margin: 0 auto;
   }
   .ag-client-carousel_list {
@@ -10481,10 +10478,10 @@ a.ag-article-img-item_link:hover {
 
 @media (min-width: 980px) and (max-width: 1039px) {
   .ag-format-container {
-    width: var(--format-container-table);
+    width: 960px;
   }
   .ag-format-container__half {
-    width: calc(var(--format-container-table)/2);
+    width: calc(960px/2);
   }
 
   .ag-base_title {
@@ -10566,7 +10563,7 @@ a.ag-article-img-item_link:hover {
     margin: 0 175px 0 0;
   }
   .ag-client-carousel_box {
-    width: var(--format-container-table);
+    width: 960px;
     margin: 0 auto;
   }
   .ag-client-carousel_list {
