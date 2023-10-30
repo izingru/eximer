@@ -119,10 +119,10 @@ body {
 }
 
 .ag-animation_title {
-  -webkit-animation: an-fadeIn 1.5s;
-  -moz-animation: an-fadeIn 1.5s;
-  -o-animation: an-fadeIn 1.5s;
-  animation: an-fadeIn 1.5s;
+  -webkit-animation: an-bounceInUp .7s;
+  -moz-animation: an-bounceInUp .7s;
+  -o-animation: an-bounceInUp .7s;
+  animation: an-bounceInUp .7s;
 }
 
 .ag-animation_btn {
@@ -142,7 +142,6 @@ body {
 @-webkit-keyframes an-fadeIn {
   0% {
     opacity: 0;
-
   }
   80% {
     -webkit-transform: scale(.98);
@@ -159,7 +158,6 @@ body {
 @-moz-keyframes an-fadeIn {
   0% {
     opacity: 0;
-
   }
   80% {
     -moz-transform: scale(.98);
@@ -176,7 +174,6 @@ body {
 @-o-keyframes an-fadeIn {
   0% {
     opacity: 0;
-
   }
   80% {
     -o-transform: scale(.98);
@@ -193,7 +190,6 @@ body {
 @keyframes an-fadeIn {
   0% {
     opacity: 0;
-
   }
   80% {
     -webkit-transform: scale(.98);
